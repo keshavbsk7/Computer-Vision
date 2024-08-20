@@ -2,10 +2,7 @@ import cv2
 
 
 image = cv2.imread('s.jpg', cv2.IMREAD_GRAYSCALE)
-
-
-if image is None:
-    raise ValueError("Image not found or unable to load.")
+  
 
 
 equalized_image = cv2.equalizeHist(image)

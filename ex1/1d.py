@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-image_path = "C:/Users/Administrator/Documents/17419/images.jfif"  
+image_path = "images.jfif"  
 image = cv2.imread(image_path)
 image=cv2.cvtColor(image, cv2.COLOR_BGR2RGB) 
 

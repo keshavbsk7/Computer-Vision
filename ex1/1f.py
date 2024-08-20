@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 # Load an image using OpenCV
-image_path = "C:/Users/Administrator/Documents/17419/images.jfif"
+image_path = "images.jfif"
 image = cv2.imread(image_path)
 
 
